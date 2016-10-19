@@ -41,16 +41,15 @@ video {
 	left: 0;
 }
 
-.container {
+.overlay {
 	position: relative;
 	z-index: 2;
 	background: rgba(0,0,0,0.2);
 	min-height: 50vh;
-	width: 26%;
+	width: 70%;
 	top: 0;
 	left: 4rem;
-	bottom: 0;
-	margin-right: 950px; 
+	bottom: 0; 
 }
 
 form {
