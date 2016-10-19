@@ -51,8 +51,8 @@ form {
 }
 
 
-@media screen and (max-device-width: 800px) {
-	.loop {
-		background-image: url("../prev.jpg");
-	}
+@media screen and (max-device-width: 1050px) {
+	video{
+		min-height: 100vh;
+		min-width: 100vw;
 }
