@@ -46,7 +46,7 @@ video {
 	z-index: 2;
 	background: rgba(0,0,0,0.2);
 	min-height: 50vh;
-	width: 70%;
+	width: 30%;
 	top: 0;
 	left: 4rem;
 	bottom: 0; 
@@ -59,25 +59,22 @@ form {
 
 input {
 	font: helvetica, tahoma, sans-serif;
-	width: 60%;
 	background: #ccd6c0;
 }
 
 input#submit {
 	font: helvetica, tahoma, sans-serif;
-	width: 30%;
-	height: 10%;
 }
 
 input, a {
 	color: black;
 }
 
-/*@media screen and (max-device-width: 1050px) {
-	video {
-		min-height: 100vh;
-		min-width: 100vw;
-	}
+@media(max-width:768px){
+
 }
-*/
+
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
 
