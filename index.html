@@ -4,12 +4,13 @@
 	<title>Gesto</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
 	<header>
 		<video autoplay loop muted poster="Gesto_video.JPG">
+			<source src="Gesto_site_1366x768.mp4" type="video/mp4" media="all and (min-width: 1280px)">
 			<source src="Gesto_site_1280x1024.mp4" type="video/mp4" media="all and (min-width: 1280px)">
 			<source src="Gesto_site_1920x1080.mp4" type="video/mp4" media="all and (min-width: 1920px)">
 		</video>
@@ -17,15 +18,18 @@
 
 	<div class="container">
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet nibh ut urna tempus cursus. Curabitur egestas, nulla at fringilla sagitti, lectus dolor efficitur ex, sit amet iaculis nunc tellus sed ipsum. Mauris sit amet lectus ac nisi imperdiet eleifend eu vehicula ante. Vestibulum volutpat maximus purus, at pulvinar sem. Aenean aliquet eget erat vitae pretium. Pellentesque dictum enim aliquam sapien commodo, vel bibendum neque venenatis. Morbi at purus quis ante sollicitudin ultricies.
 			<form>
-				<input type="text" value="Username"><br>
-				<input type="text" value="Password"><br><br>
-				<input type="submit" value="Register">
+				<input type="text" placeholder="Username"><br><br>
+				<input type="text" placeholder="Password"><br><br>
+				<input type="submit" value="Submit" id="submit"><br><br>
+				<a href="#">Forget password?</a>
 			</form>
 		</p>
 	</div>
 
+	<div class="content">
+		<p>sdfa</p>
+	</div>
 	
 	
 </body>
